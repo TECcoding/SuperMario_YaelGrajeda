@@ -1,5 +1,9 @@
 using UnityEngine;
 
+/*
+Movimiento de personaje
+Autor: Yael Sinuhe Grajeda Martinez
+*/
 public class MuevePersonaje : MonoBehaviour
 {
     // Velocidad
