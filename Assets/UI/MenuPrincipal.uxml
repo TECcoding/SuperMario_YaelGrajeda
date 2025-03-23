@@ -1,5 +1,6 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
     <Style src="project://database/Assets/UI/MenuPrincipal.uss?fileID=7433441132597879392&amp;guid=75452f059433c904b95d965142f1ce26&amp;type=3#MenuPrincipal" />
+    <Style src="project://database/Assets/UI/MenuRegresa.uss?fileID=7433441132597879392&amp;guid=2541c11fe7a053f49887a9315999d8ba&amp;type=3#MenuRegresa" />
     <ui:VisualElement class="main-container">
         <ui:VisualElement class="menu-container" style="width: 1044px; height: 92px;">
             <ui:Label text="Tarea Unity" class="title" style="height: 78px; font-size: 70px; -unity-font-style: bold;" />
@@ -12,9 +13,18 @@
         <ui:VisualElement name="block" class="cloud-image" style="background-image: url(&quot;project://database/Assets/Images/MarioBloques.png?fileID=1536714791&amp;guid=d4c0bde2072043a44a0a5e92387c4377&amp;type=3#MarioBloques_24&quot;); width: 40px; height: 40px; top: 542px; right: 1168px;" />
         <ui:VisualElement name="block" class="cloud-image" style="background-image: url(&quot;project://database/Assets/Images/MarioBloques.png?fileID=1536714791&amp;guid=d4c0bde2072043a44a0a5e92387c4377&amp;type=3#MarioBloques_24&quot;); width: 40px; height: 40px; top: 542px; right: 1091px;" />
         <ui:VisualElement class="menu-container" style="width: 708px; height: 503px; opacity: 1; visibility: visible; overflow: visible; background-color: rgba(0, 0, 0, 0.39);">
-            <ui:Button name="jugar-button" text="Jugar" class="menu-button" style="width: 200px; height: 50px; font-size: 30px; background-image: url(&quot;project://database/Assets/Saurabh_Studio/UI%20button%20and%20hallowing%20element%20pack%205/Button%206/7.png?fileID=2800000&amp;guid=d3dd507249881854fbaa9d44a29f0d89&amp;type=3#7&quot;); background-color: rgb(75, 100, 178); background-position-x: center 0; background-position-y: center 0; scale: 1.5 1.5; transition-duration: 0.3s; transition-timing-function: ease-in-out; top: -69px;" />
-            <ui:Button name="ayuda-button" text="Ayuda" class="menu-button" style="width: 200px; height: 50px; font-size: 30px; background-image: url(&quot;project://database/Assets/Saurabh_Studio/UI%20button%20and%20hallowing%20element%20pack%205/Button%206/7.png?fileID=2800000&amp;guid=d3dd507249881854fbaa9d44a29f0d89&amp;type=3#7&quot;); background-position-y: center 0; background-position-x: center 0; scale: 1.5 1.5; transition-duration: 0.3s; transition-timing-function: ease-in-out; top: 12px; background-color: rgb(75, 100, 178);" />
-            <ui:Button name="creditos-button" text="Créditos" class="menu-button" style="background-image: url(&quot;project://database/Assets/Saurabh_Studio/UI%20button%20and%20hallowing%20element%20pack%205/Button%206/7.png?fileID=2800000&amp;guid=d3dd507249881854fbaa9d44a29f0d89&amp;type=3#7&quot;); background-position-y: center 0; background-position-x: center 0; font-size: 30px; width: 200px; height: 50px; transition-duration: 0.3s; transition-timing-function: ease-in-out; scale: 1.5 1.5; top: 86px; background-color: rgb(75, 100, 178);" />
+            <ui:Button name="jugar-button" text="Jugar" class="menu-button" style="background-image: url(&quot;project://database/Assets/Saurabh_Studio/UI%20button%20and%20hallowing%20element%20pack%205/Button%206/7.png?fileID=2800000&amp;guid=d3dd507249881854fbaa9d44a29f0d89&amp;type=3#7&quot;); width: 300px; height: 70px; background-position-y: center 0; font-size: 40px; top: -57px; background-color: rgba(188, 188, 188, 0); -unity-font-style: bold;" />
+            <ui:Button name="ayuda-button" text="Ayuda" class="menu-button" style="background-image: url(&quot;project://database/Assets/Saurabh_Studio/UI%20button%20and%20hallowing%20element%20pack%205/Button%206/7.png?fileID=2800000&amp;guid=d3dd507249881854fbaa9d44a29f0d89&amp;type=3#7&quot;); background-position-y: center 0; font-size: 40px; width: 300px; height: 70px; background-color: rgba(188, 188, 188, 0); -unity-font-style: bold;" />
+            <ui:Button name="creditos-button" text="Créditos" class="menu-button" style="background-image: url(&quot;project://database/Assets/Saurabh_Studio/UI%20button%20and%20hallowing%20element%20pack%205/Button%206/7.png?fileID=2800000&amp;guid=d3dd507249881854fbaa9d44a29f0d89&amp;type=3#7&quot;); background-position-y: center 0; width: 300px; height: 70px; font-size: 40px; top: 59px; background-color: rgba(188, 188, 188, 0); -unity-font-style: bold;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="panel-ayuda" class="ayuda-panel" style="display: none;">
+            <ui:Label text="What is Lorem Ipsum?
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been 
+the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled 
+it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, 
+remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum 
+passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum." class="ayuda-texto" />
+            <ui:Button name="regresa-menu-button" text="Regresar" class="menu-button" />
         </ui:VisualElement>
         <ui:Label text="Yael Sinuhé Grajeda Martínez (A01801044)" class="footer" style="font-size: 27px; -unity-font-style: italic;" />
     </ui:VisualElement>

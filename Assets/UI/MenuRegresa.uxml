@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/MenuRegresa.uss?fileID=7433441132597879392&amp;guid=2541c11fe7a053f49887a9315999d8ba&amp;type=3#MenuRegresa" />
+    <ui:VisualElement class="main-container" style="opacity: 1; background-color: rgba(95, 126, 214, 0);">
+        <ui:Button name="regresa-button" text="Regresa" class="regresa-button" style="background-image: url(&quot;project://database/Assets/Saurabh_Studio/UI%20button%20and%20hallowing%20element%20pack%205/Button%206/6.png?fileID=2800000&amp;guid=b70cf55ddd2dad349a3b21ae2ef028dd&amp;type=3#6&quot;); background-position-y: center 0; background-position-x: center 0; -unity-background-scale-mode: scale-and-crop; background-color: rgba(247, 107, 28, 0); height: 72px; width: 212px; top: 309px; right: 498px;" />
+    </ui:VisualElement>
+</ui:UXML>
